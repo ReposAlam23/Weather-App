@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    font-weight: 600;
+    color: white
 }
 .weather-main{
     background-color: #586e77;
@@ -36,6 +38,7 @@ button:hover{
 }
 .span{
     font-weight: 700;
+    color: lightgreen
 }
 .history-div{
     height: 40vh;

@@ -72,7 +72,7 @@ const Weather=()=>{
                     <div className="history-elements">
                         {history.map((item, key)=>{
                             return <> 
-                                    <div>{key+1}: {item.name} temperature : {parseFloat(item.temp-273).toFixed(2)} </div>
+                                    <div>{key+1}: {item.name} temperature : <span className="span">{parseFloat(item.temp-273).toFixed(2)}</span> </div>
                             </>
                         })}      
                     </div>
